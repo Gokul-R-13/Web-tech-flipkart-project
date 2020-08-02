@@ -1,0 +1,21 @@
+p{
+  font: 15px Arial, sans-serif;
+}
+body {
+  background-color: lightgrey;
+  color: black;
+  word-spacing: 5px;
+}
+h1{
+	text-align:center;font-family:Courier New; text-shadow: 2px 2px 5px red;
+}
+
+.nextto{
+background-color: white;
+height:60%;
+  width: 200;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 10px;
+  display: inline-block;
+}
