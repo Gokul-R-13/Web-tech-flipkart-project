@@ -96,7 +96,7 @@ th {
 
 
 @media screen and (max-width:800px) {
-  .column,.row,.footer {
+  .column,.column1,.row,.footer {
     width: 100%;
   }
   
