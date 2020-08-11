@@ -90,7 +90,6 @@ th {
   color: white;
 }
 
-<!--Responsive modification-->
 @media screen and (max-width:800px) {
   .column,.column1,.row,.footer {
     width: 100%;
