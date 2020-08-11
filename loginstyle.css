@@ -1,5 +1,7 @@
 body  
 {  
+    
+background-image: url('login.jpg');
     background-color:#08ffd1;  
     font-family: Courier New;  
 }  
@@ -7,7 +9,7 @@ body
         width: 382px;    
         margin: auto;  
         padding: 80px;  
-        background: #23463f;  
+        background: rgba(0, 0, 0, 0.5); 
         border-radius: 15px ;  
           
 }  
