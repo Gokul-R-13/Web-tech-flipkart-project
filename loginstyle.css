@@ -1,8 +1,7 @@
 body  
 {  
     
-background-image: url('login.jpg');
-    background-color:#08ffd1;  
+background-image: url('login.jpg'); 
     font-family: Courier New;  
 }  
 .login{  
@@ -19,7 +18,7 @@ h2{
     padding: 20px;  
 }  
 label,span{  
-    color: #4CAF50;  
+    color: white;  
     font-size: 17px;  
 }  
 #Uname,#Pass{  
@@ -42,5 +41,5 @@ label,span{
  
 a{  
     float: right;  
-    background-color: grey;  
+    color: white;  
 }
