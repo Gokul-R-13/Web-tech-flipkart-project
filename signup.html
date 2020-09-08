@@ -1,27 +1,22 @@
 <html>
 <head>
 <title>Sign Up</title>
-<style>
-body {
-  background-image: url('login.jpg');
-}
-
-</style>
+<link rel="stylesheet" type="text/css" href="loginstyle.css">
 </head>
+
 <body>
-<h2><u><b><center>Welcome To Our Shop</center><h2></b></u>
+<h2><center>Welcome To Our Shop</center></h2>
+
+<div class="login"> 
 <form>
-First Name:<input type="text" required="" placeholder="first name"><br><br>
-Last Name:<input type="text" required="" placeholder="last name"><br><br>
-Phone Number:<input type="tel" required="" placeholder="9876543210" pattern="[0-9]{10}"><br><br>
-E-mail ID:<input type="email"  placeholder="xxx@gmail.com"><br><br>
-password:<input type="password" required="" placeholder="password"><br><br>
+<label><b>First Name:</b></label> <br> <input type="text" placeholder="first name" required id="Uname"><br><br>
+<label><b>Last Name:</b></label> <br> <input type="text" placeholder="last name" required id="Uname"><br><br>
+<label><b>Phone Number:</b></label> <br> <input type="tel" placeholder="9876543210" pattern="[0-9]{10}" required id="Uname"><br><br>
+<label><b>E-mail ID:</b></label> <br> <input type="email" placeholder="xxx@gmail.com" required id="Uname"><br><br>
+<label><b>password:</b></label> <br> <input type="password" placeholder="password" required id="Pass"><br><br>
+<center> <button id="log">Register</button> </center>
 </form>
-<button onclick="myFunction()">Register</button>
-<script>
-function myFunction() {
-  alert("Registered Sucessfully");
-}
-</script>
+</div>
+
 </body>
 </html>
